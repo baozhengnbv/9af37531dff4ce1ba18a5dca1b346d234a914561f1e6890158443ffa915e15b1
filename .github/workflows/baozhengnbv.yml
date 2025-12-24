@@ -1,21 +1,25 @@
 name: baozhengnbv
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 2/6 * * *'
+    - cron: '24 5/6 * * *'
 
-jobs:  # 27147
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: baozhengnbv
         env:
-          igcb8004: ${{ secrets.igcb8004 }}
+          sqik04421: ${{ secrets.sqik04421 }}
         run: |
-          echo $igcb8004 | jq -r .oo773 | /bin/bash
-          echo $elbl6 | jq -r .mo0 | /bin/bash
-          echo $c2 | jq -r .l2 | /bin/bash
-          echo $bc8685 | jq -r .z2 | /bin/bash
+          echo $sqik04421 | jq -r .e3 | /bin/bash
+          echo $qusm53 | jq -r .zclal441 | /bin/bash
+          echo $leoqb362 | jq -r .vylfn187 | /bin/bash
+          echo $cnx23425 | jq -r .bddj662 | /bin/bash
+          echo $ut2482 | jq -r .wyr2 | /bin/bash
+          echo $ln8544 | jq -r .b449 | /bin/bash
+          echo $jagm72011 | jq -r .nhey17 | /bin/bash
+          echo $cwqi9 | jq -r .kkao3021 | /bin/bash
 
